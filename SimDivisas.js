@@ -164,7 +164,7 @@ function simularcompra(){
 
 }
     
-
+    Usuarios=[]
 function AgregarUsuario(){
     
     let nombre=prompt("nombre")
@@ -194,12 +194,28 @@ function AgregarUsuario(){
 
     }
    
-    
-   
-
-
+    function compraXusuario(){
+        if(Usuarios!=null){
+            
+                
+                Usuarios.forEach((Usuarios)=>{
+                   switch(Usuarios){
+                       case 1:
+                           Usuarios.slice(Usuarios.length)
+                           console.log(Usuarios)
+                           break
+                   }
+                }) 
+                
+               
+         }else{alert("usuario cargado")}
+            
+             
 
     }
+   
+
+  }
 
 
    
